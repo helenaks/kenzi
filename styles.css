@@ -1,0 +1,19 @@
+body {
+    width: 600px;
+    margin: auto;
+}
+
+#header {
+    background-color: beige;
+}
+
+#image {
+    background-image: url(katt.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    border-bottom-width: 3px;
+
+}
