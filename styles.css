@@ -1,10 +1,15 @@
 body {
     width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 #header {
-    background-color: beige;
+    background-color: rgb(254, 254, 214);
+    color: grey;
+    padding: 5px 10px;
+    font-family: helvetica;
+    font-weight: bold;
 }
 
 #image {
@@ -15,5 +20,6 @@ body {
     border-radius: 50%;
     border: 1px solid black;
     border-bottom-width: 3px;
+    text-align: center;
 
 }
