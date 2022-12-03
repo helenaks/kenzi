@@ -5,8 +5,8 @@ body {
     font-family: georgia;
 }
 
-h1 {
-    align-text: center;
+div h1 {
+    text-align: center;
 }
 
 #header {
