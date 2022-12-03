@@ -2,7 +2,7 @@ body {
     width: 600px;
     margin: auto;
     margin-top: 10px;
-    font-family: georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #nav {
@@ -11,9 +11,8 @@ body {
 
 a {
     display: inline-block;
-    color: black;
+    color: rgb(70, 69, 69);
     margin: 10px;
-
 }
 
 div h1 {
@@ -48,6 +47,12 @@ div h1 {
     border-bottom: 1px grey solid;
     margin-top: 10px;
     margin-bottom: 10px;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
 }
 
 footer {
