@@ -1,25 +1,38 @@
 body {
     width: 600px;
     margin: auto;
-    text-align: center;
+    margin-top: 10px;
+
 }
 
 #header {
-    background-color: rgb(254, 254, 214);
+    background-color: #cfa6ae;
     color: grey;
-    padding: 5px 10px;
+    padding: 5px 5px;
     font-family: helvetica;
     font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+
 }
+
 
 #image {
     background-image: url(katt.jpg);
     background-size: cover;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 1px solid black;
     border-bottom-width: 3px;
     text-align: center;
 
+}
+
+#content {
+    border-top: 2px grey solid;
+    border-bottom: 2px grey solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
